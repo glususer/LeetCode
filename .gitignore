@@ -2,3 +2,8 @@
 *.log
 *.iml
 *.idea
+target/
+build/
+out/
+/**/src_gen
+project/

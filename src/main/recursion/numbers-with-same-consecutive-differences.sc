@@ -1,6 +1,3 @@
-//https://leetcode.com/problems/numbers-with-same-consecutive-differences/
-//Runtime: 524 ms, faster than 100.00% of Scala online submissions for Numbers With Same Consecutive Differences.
-//Memory Usage: 51.8 MB, less than 100.00% of Scala online submissions for Numbers With Same Consecutive Differences.
 def generateNext(currentInt:Int, remaining:Int, diff: Int):List[Int]={
   if(remaining == 0)List(currentInt)
   else{
@@ -16,4 +13,4 @@ def numsSameConsecDiff(n: Int, k: Int): Array[Int] = {
   (1 to 9).flatMap(num => generateNext(num,n-1,k)).distinct.toArray
 }
 
-numsSameConsecDiff(3,7)
+numsSameConsecDiff(3,8)
