@@ -1,4 +1,6 @@
-class TreeNode(_value: Int = 0, _left: TreeNode = null, _right: TreeNode = null) {
+import binarytree.TreeNode
+
+/*class TreeNode(_value: Int = 0, _left: TreeNode = null, _right: TreeNode = null) {
   var value: Int = _value
   var left: TreeNode = _left
   var right: TreeNode = _right
@@ -6,7 +8,7 @@ class TreeNode(_value: Int = 0, _left: TreeNode = null, _right: TreeNode = null)
 
 object TreeNode {
   def apply(_value: Int, _left: TreeNode, _right: TreeNode): TreeNode = new TreeNode(_value, _left, _right)
-}
+}*/
 
 //Runtime: 1084 ms, faster than 6.25% of Scala online submissions for Count Good Nodes in Binary Tree.
 //Memory Usage: 86.8 MB, less than 6.25% of Scala online submissions for Count Good Nodes in Binary Tree.
